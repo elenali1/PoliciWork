@@ -1,0 +1,55 @@
+/* center table on the webpage*/
+table {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+/*sizing of cells for alignment btw rows and where words will overflow to*/
+.tdspace {
+    height:375px; 
+    width: 375px; 
+}
+/*aligning the items in each cell to be centered*/
+.tdc{
+    align-items:center; 
+    text-align: center;
+}
+/*make the images circular */ 
+.circular--square {
+    width: 280px; 
+    height: 280px; 
+    /*cover crops the image into a square of 250px by 250px*/ 
+    object-fit:cover;
+    border-radius: 50%;
+  }
+/*style for researcher name*/
+.name { 
+    font-weight:bold;
+    font: 'Karla'; 
+    color: black
+}
+/*style for description of researcher*/ 
+.desc{
+    font-style: italic; 
+    font: 'Karla'; 
+    color: black
+}
+a{
+    text-decoration: none;
+}
+.pname{
+    font-weight:bold;
+    font: 'Karla'; 
+    color: black
+}
+.pImg{
+    width: 500px; 
+    height: 500x; 
+    /*cover crops the image into a square of 250px by 250px*/ 
+    object-fit:cover;
+    border-radius: 50%;
+}
+.pDesc{
+    font-style: italic; 
+    font: 'Karla'; 
+    color: black
+}
